@@ -20,11 +20,11 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply_photo(
-                    photo="https://te.legra.ph/file/8768bc3511c4f0a631411.jpg", caption=f"» ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ʏᴏᴜ'ᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ [ᴀʙᴏᴜᴛ ᴘɪʏᴜꜱʜ]({link}) ʏᴇᴛ, ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛʜᴇɴ ᴊᴏɪɴ [ᴀʙᴏᴜᴛ ᴘɪʏᴜꜱʜ]({link}) ᴀɴᴅ sᴛᴀʀᴛ ᴍᴇ ᴀɢᴀɪɴ !",
+                    photo="https://telegra.ph/file/f2632de43c3c94f4bf81d.jpg", caption=f"» 𝗣𝗟𝗘𝗔𝗦𝗘 𝗝𝗢𝗜𝗡 𝗠𝗬 [𝗨𝗣𝗗𝗔𝗧𝗘𝗗𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟]({link}) 𝗧𝗢 𝗨𝗦𝗘 𝗧𝗛𝗜𝗦 𝗕𝗢𝗧.",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🇮🇳 ᴀʙᴏᴜᴛ ᴘɪʏᴜꜱʜ", url=link),
+                                InlineKeyboardButton("🌸 𝗝𝗢𝗜𝗡 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 🌸", url=link),
                             ]
                         ]
                     )
