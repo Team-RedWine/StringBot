@@ -12,21 +12,24 @@ async def start(bot: Client, msg: Message):
     me2 = (await bot.get_me()).mention
     await bot.send_message(
         chat_id=msg.chat.id,
-        text=f"""Hᴇʏ {msg.from_user.mention},
+        text=f"""𝗛𝗘𝗬 {msg.from_user.mention},
 
-ʜᴇʏ ɪᴛ'ꜱ {me2},
-Aɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
+𝗜 𝗮𝗺 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 𝗦𝘁𝗿𝗶𝗻𝗴 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗼𝗿 𝗯𝗼𝘁 𝗳𝗼𝗿 𝗣𝘆𝗿𝗼𝗴𝗿𝗮𝗺 & 𝗧𝗲𝗹𝗲𝘁𝗵𝗼𝗻.
 
-Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [🇷🇺⛦°╰𝐑֟֟𝐂╯°⛦ ➣🇵ιყυʂԋ⏤͟͟⛦⃕͜🇮🇳](tg://user?id={OWNER_ID}) !""",
+
+𝗠𝗔𝗗𝗘 𝗕𝗬: [𝗦𝗔𝗡𝗚𝗥𝗔𝗠](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="🫧 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🫧", callback_data="generate")
+                    InlineKeyboardButton(text="🌸 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘 𝗦𝗘𝗦𝗦𝗜𝗢𝗡 🌸", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("❄️ sᴏᴜʀᴄᴇ ❄️", url="https://github.com/ItsPiyushCoder/StringGen"),
-                    InlineKeyboardButton("⚠️ ᴏᴡɴᴇʀ ⚠️", user_id=OWNER_ID)
-                ]
+                    InlineKeyboardButton("🌸 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🌸", url="https://t.me/WorldChattingFriendsWCF"),
+                    InlineKeyboardButton("🌸 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 🌸", url="https://t.me/WCFnetwork")
+                ],
+                [
+                    InlineKeyboardButton("🌸 𝗢𝗪𝗡𝗘𝗥 🌸", url="https://t.me/Kalakar_Sangram")
+                ],
             ]
         ),
         disable_web_page_preview=True,
