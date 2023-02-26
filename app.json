@@ -1,7 +1,7 @@
 {
   "name": "String Generator",
   "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
-  "logo": "https://te.legra.ph/file/e638c61dd9f49bbc2ea0d.jpg",
+  "logo": "https://telegra.ph/file/f2632de43c3c94f4bf81d.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -11,7 +11,7 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/ItsPiyushCoder/StringGen",
+  "repository": "https://github.com/Team-RedWine/StringBot",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -31,7 +31,7 @@
     "OWNER_ID": {
       "description": "Telegram id of the person who will known as owner of the bot.",
       "required": true,
-      "value": ""
+      "value": "1711510822"
     },
     "MONGO_DB_URI": {
       "description": "Get this value from cloud.mongodb.com",
@@ -41,7 +41,7 @@
     "MUST_JOIN": {
       "description": "Username of a group or channel for which you want to set force sub.(without @)",
       "required": true,
-      "value": "PiyushMalviyaOfficially"
+      "value": "WorldChattingFriendsWCF"
     },
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
